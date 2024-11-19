@@ -8,13 +8,13 @@ This document provides an overview of the **current attributes** in our database
 
 The following attributes are currently implemented in the database:
 
-| **Attribute Name** | **Data Type** | **Description**                               | **Example**            |
-|---------------------|---------------|-----------------------------------------------|------------------------|
-| `id`               | Integer       | Unique identifier for each record.            | `101`                 |
-| `name`             | String        | Name of the entity (user, product, etc.).     | `John Doe`            |
-| `email`            | String        | Email address for communication.              | `example@email.com`   |
-| `created_at`       | Timestamp     | Record creation timestamp.                    | `2024-11-01 12:00:00` |
-| `updated_at`       | Timestamp     | Last updated timestamp.                       | `2024-11-15 08:30:00` |
+| **Attribute Name** | **Displayed Name (Title)** | **Data Type** | **Description**                               | **Example**            |
+|---------------------|----------------------------|---------------|-----------------------------------------------|------------------------|
+| `id`               | ID                         | Integer       | Unique identifier for each record.            | `101`                 |
+| `name`             | Name                       | String        | Name of the entity (user, product, etc.).     | `John Doe`            |
+| `email`            | Email                      | String        | Email address for communication.              | `example@email.com`   |
+| `created_at`       | Created At                 | Timestamp     | Record creation timestamp.                    | `2024-11-01 12:00:00` |
+| `updated_at`       | Updated At                 | Timestamp     | Last updated timestamp.                       | `2024-11-15 08:30:00` |
 
 ---
 
@@ -22,15 +22,15 @@ The following attributes are currently implemented in the database:
 
 To improve the functionality of the database, the following attributes are proposed:
 
-| **Attribute Name**  | **Data Type** | **Description**                               | **Example**            |
-|----------------------|---------------|-----------------------------------------------|------------------------|
-| `phone_number`      | String        | Contact phone number for the entity.          | `+1-800-123-4567`     |
-| `address`           | String        | Full mailing address.                         | `123 Main St, City`   |
-| `status`            | Enum          | Current status of the record (e.g., active, inactive). | `active`             |
-| `profile_picture`   | String (URL)  | Link to the profile picture.                  | `https://.../image.jpg`|
-| `role`              | String        | Role assigned to the entity (e.g., admin, user). | `admin`              |
-| `last_login`        | Timestamp     | Timestamp of the last login.                  | `2024-11-18 22:15:00` |
-| `preferences`       | JSON          | User preferences for customizable settings.   | `{"theme":"dark"}`    |
+| **Attribute Name**  | **Displayed Name (Title)** | **Data Type** | **Description**                               | **Example**            |
+|----------------------|----------------------------|---------------|-----------------------------------------------|------------------------|
+| `phone_number`      | Phone Number               | String        | Contact phone number for the entity.          | `+1-800-123-4567`     |
+| `address`           | Address                    | String        | Full mailing address.                         | `123 Main St, City`   |
+| `status`            | Status                     | Enum          | Current status of the record (e.g., active, inactive). | `active`             |
+| `profile_picture`   | Profile Picture            | String (URL)  | Link to the profile picture.                  | `https://.../image.jpg`|
+| `role`              | Role                       | String        | Role assigned to the entity (e.g., admin, user). | `admin`              |
+| `last_login`        | Last Login                 | Timestamp     | Timestamp of the last login.                  | `2024-11-18 22:15:00` |
+| `preferences`       | Preferences                | JSON          | User preferences for customizable settings.   | `{"theme":"dark"}`    |
 
 ---
 
